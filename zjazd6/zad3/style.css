@@ -1,0 +1,8 @@
+#tabelka table{
+    border-collapse: collapse;
+}
+#tabelka th, #tabelka td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}

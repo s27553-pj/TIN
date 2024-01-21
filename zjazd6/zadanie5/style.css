@@ -1,0 +1,16 @@
+.ak{
+    width: 300px;
+}
+.ak-item{
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+.ak-header{
+    background-color: #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+.ak-content{
+    padding: 10px;
+    display: none;
+}

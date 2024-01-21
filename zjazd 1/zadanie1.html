@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie1</title>
+</head>
+    <h1>lista nawigacyjna</h1>
+    <ul>
+        <li>link</li>
+        <ul>
+            <li>link2</li>
+            <li>link2</li>
+            <li>link2</li>
+        </ul>
+        <li>link2</li>
+        <li>link3</li>
+    </ul>
+    <h2>zdjęcie</h2>
+    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+    <img src="https://www.zwierzosfera.pl/wp-content/uploads/2016/02/pies_maltanczyk1.jpg" alt="piesek" style="width:200px;height: 100px;">
+    <h3>tabela</h3>
+    <table style="border: 1px solid black;">
+        <tr>
+            <th>wiek psa</th>
+            <th>rasy małe do 15kg</th>
+            <th>rasy średnie 15-45kg</th>
+            <th>rasy duże powyżej 45kg</th>
+        </tr>
+        <tr>
+            <td>1 miesiąc</td>
+            <td>1 rok</td>
+            <td>1 rok</td>
+            <td>1 rok</td>
+        </tr>
+        <tr>
+            <td>3 miesiące</td>
+            <td>5 lat</td>
+            <td>3 lata</td>
+            <td>2 lata</td>
+        </tr>
+        <tr>
+            <td>6 miesięcy</td>
+            <td>10 lat</td>
+            <td>8 lat</td>
+            <td>6 lat</td>
+        </tr>
+        <tr>
+            <td>12 miesięcy</td>
+            <td>20 lat</td>
+            <td>18 lat</td>
+            <td>12 lat</td>
+        </tr>
+    </table>
+    <h3>formularz</h3>
+    <form method="POST" action="zadanie1.html">
+        <label for="imie">Imię i nazwisko:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="opis">Opis</label>
+        <br>
+        <textarea  rows="10" cols="30">wpisz cos o sobie</textarea>
+        <br>
+        <label for="wiek">Wiek</label>
+        <br>
+        <select name="wiek" id="wiek">
+            <option>0-18</option>
+            <option>18-65</option>
+            <option>65-100</option>
+        </select><br>
+        <label for="opcja">Opcja</label><br>
+        <input type="radio" name="opcja" id="a" value="a">
+        <label for="a">a</label><br>
+        <input type="radio" name="opcja" id="b" value="b">
+        <label for="b">b</label><br>
+        <input type="radio" name="opcja" id="c" value="c">
+        <label for="c">c</label><br>
+        <input type="submit" value="wyślij">
+    </form>
+</html>

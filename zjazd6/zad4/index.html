@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>zadanie1</title>
+</head>
+
+<body>
+<label for="menuToggle" id="menuButton">&#9776;</label>
+<div id="left">
+    <div id="links">
+        <ul>
+            <li><a href="zadanie1.html"> link</a>
+                <ul>
+                    <li class="dropdowns"><a href="zadanie1.html">link2 </a></li>
+                    <li class="dropdowns"><a href="zadanie1.html">link2 </a></li>
+                    <li class="dropdowns"><a href="zadanie1.html">link2 </a></li>
+                </ul>
+            </li>
+            <li><a href="zadanie1.html">link </a></li>
+            <li><a href="zadanie1.html">link </a></li>
+        </ul>
+    </div>
+</div>
+<div id="center">
+    <div class="column">
+        <h1>Title</h1>
+        <h2>Photo</h2>
+        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+        <img src="https://www.zwierzosfera.pl/wp-content/uploads/2016/02/pies_maltanczyk1.jpg" alt="piesek">
+        <p>Proin nec porttitor sem, vitae molestie lacus. Integer venenatis, nunc at bibendum tempor, arcu magna
+            pellentesque risus, vitae ultrices enim dui nec odio. In euismod sapien tellus, eget commodo metus
+            sodales sed. Aenean luctus porta hendrerit. Morbi eget venenatis sem, molestie tincidunt eros. Mauris
+            pretium blandit diam, fermentum commodo nibh. Quisque gravida sit amet nulla non efficitur. Mauris
+            ultrices venenatis ullamcorper. Vivamus eros massa, consequat at varius ac, pulvinar rutrum diam.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean id
+            molestie dolor, vel vestibulum elit. Maecenas at ex vel risus vestibulum vehicula sodales ut quam.
+            Mauris pharetra lobortis porttitor. Maecenas ac nulla eu lectus finibus pulvinar. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+        </p>
+    </div>
+    <div class="column">
+        <h3>tabela</h3>
+        <table>
+            <tr>
+                <th>wiek psa</th>
+                <th>rasy małe do 15kg</th>
+                <th>rasy średnie 15-45kg</th>
+                <th>rasy duże powyżej 45kg</th>
+            </tr>
+            <tr>
+                <td>1 miesiąc</td>
+                <td>1 rok</td>
+                <td>1 rok</td>
+                <td>1 rok</td>
+            </tr>
+            <tr>
+                <td>3 miesiące</td>
+                <td>5 lat</td>
+                <td>3 lata</td>
+                <td>2 lata</td>
+            </tr>
+            <tr>
+                <td>6 miesięcy</td>
+                <td>10 lat</td>
+                <td>8 lat</td>
+                <td>6 lat</td>
+            </tr>
+            <tr>
+                <td>12 miesięcy</td>
+                <td>20 lat</td>
+                <td>18 lat</td>
+                <td>12 lat</td>
+            </tr>
+        </table>
+        <h3>formularz</h3>
+        <form method="POST" action="zadanie1.html">
+            <div id="formleft">
+                <label for="imie">Imię i nazwisko:</label>
+                <br>
+                <input type="text">
+                <br>
+                <label for="opis">Opis</label>
+                <br>
+                <textarea rows="5" cols="20">wpisz cos o sobie</textarea>
+            </div>
+            <div id="formright">
+                <label for="wiek">Wiek</label>
+                <br>
+                <select name="wiek" id="wiek">
+                    <option>0-18</option>
+                    <option>18-65</option>
+                    <option>65-100</option>
+                </select><br>
+                <label for="opcja">Opcja</label><br>
+                <input type="radio" name="opcja" id="a" value="a">
+                <label for="a">a</label><br>
+                <input type="radio" name="opcja" id="b" value="b">
+                <label for="b">b</label><br>
+                <input type="radio" name="opcja" id="c" value="c">
+                <label for="c">c</label><br>
+                <input type="submit" value="wyślij">
+            </div>
+        </form>
+    </div>
+</div>
+<div id="footer">
+    <p>sample text</p>
+    <p>sample text</p>
+    <p>sample text</p>
+</div>
+</body>
+
+</html>

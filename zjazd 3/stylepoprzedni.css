@@ -1,0 +1,81 @@
+body {
+	background-image: url(https://bi.im-g.pl/im/79/92/17/z24715385V,Las.jpg);
+}
+#left {
+	background-color: rgba(135, 206, 235, 0.6);
+	float: left;
+	display: block;
+	width: 20%;
+	height: 700px;
+}
+#links {
+	opacity: 1;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	opacity: 0.6;
+}
+ul {
+	background-color: aqua;
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: block;
+	padding: 5px;
+}
+li > ul {
+	background-color: paleturquoise;
+	padding-left: 20px;
+}
+#center {
+	background-color: lightblue;
+	overflow: scroll;
+	display: block;
+	width: 80%;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+	width: 200px;
+	height: 100px;
+}
+form {
+	padding: auto;
+}
+#formleft {
+	display: block;
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: auto;
+}
+#formrigth {
+	display: block;
+	float: right;
+	width: 50%;
+	padding: 10px;
+}
+table {
+	width: 100%;
+}
+th {
+	background-color: aquamarine;
+}
+tr:nth-child(2n + 1) {
+	background-color: beige;
+}
+#footer {
+	position: sticky;
+	width: 100%;
+	background-color: blue;
+	text-align: center;
+	margin-top: 0;
+}
+p {
+	margin: 0;
+}

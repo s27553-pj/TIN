@@ -1,0 +1,160 @@
+body {
+    background-color: #ddd;
+    margin: 0;
+}
+#left {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#links {
+    opacity: 1;
+    width: 10%;
+    @media (max-width: 1000px) {
+        width: 30%;
+    }
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    opacity: 0.6;
+    color: #ff6600;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+
+li {
+    padding: 5px;
+}
+li > ul {
+    margin: 0;
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.dropdowns {
+    border: solid rgb(194, 189, 189) 1px;
+    border-collapse: collapse;
+}
+li:hover > ul {
+    background-color: #333;
+    display: block;
+}
+
+#center {
+    /* background-color: #ddd; */
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column {
+    background-color: white;
+    flex: 1;
+    min-width: calc(50% - 5px);
+    margin: 5px;
+    padding: 10px;
+    @media (max-width: 1000px) {
+        flex: 1 100%;
+    }
+}
+.column img {
+    max-width: 100%;
+    height:auto ;
+}
+
+form {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+/*#formleft {
+	display: block;
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: auto;
+}
+#formrigth {
+	display: block;
+	float: right;
+	width: 50%;
+	padding: 10px;
+}*/
+table {
+    width: 100%;
+}
+td {
+    border-bottom: solid #ccc 1px;
+}
+/*
+tr:nth-child(2n + 1) {
+	background-color: beige;
+} */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+p {
+    margin: 0;
+}
+#menuButton{
+    display: none;
+}
+@media (max-width: 768px) {
+    #menuButton {
+        background-color: #333333;
+        display: block;
+        cursor: pointer;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+    }
+.dropdowns{
+    border: none;
+}
+    #links ul {
+        margin: 0;
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: fixed;
+        left: 0;
+        box-sizing: border-box;
+        z-index: 2;
+    }
+
+    #links.show ul {
+        display: flex;
+    }
+
+    #links li {
+        max-width: 100%;
+    }
+
+    #links a {
+        padding: 10px;
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+}

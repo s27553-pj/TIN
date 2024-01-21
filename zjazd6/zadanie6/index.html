@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lightbox</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="gallery">
+    <div class="image" onclick="openl('rose-orange.jpg')"><img src="rose-orange.jpg"></div>
+    <div class="image" onclick="openl('rose-pink.jpg')"><img src="rose-pink.jpg"></div>
+    <div class="image" onclick="openl('rose-white.jpg')"><img src="rose-white.jpg"></div>
+    <div class="image" onclick="openl('rose-yellow.jpg')"><img src="rose-yellow.jpg"></div>
+</div>
+<div class="lightbox" id="lightbox">
+    <span class="close-button" onclick="closel()">x</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+</body>
+</html>
