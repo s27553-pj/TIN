@@ -1,0 +1,30 @@
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+.gallery-description {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gallery-photo {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.lb-outerContainer, .lb-container, .lb-dataContainer {
+    max-width: 800px;
+}
